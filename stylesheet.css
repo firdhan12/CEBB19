@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: interfaceFont;
+    src: url(font.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: interfaceFont;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0px, 35px);
+    }
+}
+
+.top-wrapper {
+    padding: 100px 0 100px 0;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: #F8A689;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    width: 600px;
+    height: 700px;
+    float: left;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(4, 48, 70, 0.75);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 15px;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: #F8A689;
+    color: #3B3A39;
+}
+
+.header-right a:active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.menu-icon {
+    color: #FFFFFF;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none !important;
+}
+
+.tutor-wrapper {
+    padding: 45px 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: linear-gradient(#F8A689, #f7f7f7);
+    text-align: center;
+    line-height: 50%;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    font-size: 25px;
+    color: #043046;
+    cursor: pointer;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 14px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(#5f5d60, #043046);
+}
